@@ -39,7 +39,7 @@ def answer():
           if elem.isnumeric():
               error = ""
           else:    
-              error = "Please use numbers only."
+              error = "Please use integers only."
               return render_template ('/index2.html', error = error)
     for elem in jarg2:
           if elem.isnumeric():
