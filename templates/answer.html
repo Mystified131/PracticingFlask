@@ -1,0 +1,55 @@
+<!doctype = html>
+<html>
+<head>
+<title>PRACTICE SESSION</title>
+<style type="text/css">
+<!--
+body {
+font-family: Arial;
+}
+
+h1 {
+text-align: center;
+}
+
+#box {
+background-color: rgb(177, 161, 161);
+border: 5px solid rgb(12, 9, 9);
+border-radius: 10px;
+color: black;
+margin: 20px 0px 0px 0px;
+padding: 10px;
+text-align: left;
+width: 95%;
+}
+
+p {
+text-align: center
+}
+
+foot {
+text-align: center
+font-family: Arial;
+}
+
+</style>
+</head>
+<body>
+
+<div align=center>
+<div id=box>
+<h1>Here are those items in order:</h1><br><br>
+
+<ul align = "left">
+    {% for drop in honey %}
+    <li>{{drop}}</li>
+    {% endfor %}
+</ul>
+
+<br><br>
+
+<p>The time you visited the main page was: {{time}}</p>
+
+</div>
+
+
