@@ -17,3 +17,5 @@ def proclist(num1, num2, num3):
     str4 = "The mean is: " + str(mean)
     anslist.append(str4)
     return anslist
+
+    ## THE GHOST OF THE SHADOW ##
